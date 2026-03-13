@@ -44,7 +44,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 
         var covid_count = 0;
         var cold_count = 0;
-<!-- Adds 1 when the user picks an allergy count. -->
+<!-- Adds 1 when the user picks a covid count. -->
 
         function covidAdd(){
             covid_count = covid_count + 1;
@@ -73,7 +73,7 @@ function showResults(){
     var resultText = document.getElementById("results");
 
     resultText.innerHTML =
-        "Probability it is Allergies = " + covid_count + "%<br>" +
+        "Probability it is Covid = " + covid_count + "%<br>" +
         "Probability it is a Cold = " + coldPercent + "%";
 }
 	
